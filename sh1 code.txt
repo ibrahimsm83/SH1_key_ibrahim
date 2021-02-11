@@ -1,0 +1,22 @@
+windows
+keytool -list -v C:\Users\a\.android\-alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+
+1:C:\Users\a\.android
+
+keytool 
+
+keytool -list -v -keystore C:\Users\a\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+
+D2:73:7A:A2:2B:60:70:1A:1B:FC:FD:C6:AD:EB:9D:66:24:A6:08:BB
+
+1:
+keytool -list -v \-alias androiddebugkey -keystore C:\Users\a\.android\.android\debug.keystore
+
+usman done
+Program Files (x86)\Java\jre1.8.0_261\bin>keytool -exportcert -list -v -alias androiddebugkey -keystore  %USERPROFILE%\.android\debug.keystore
+
+ibrahimSM 100% working
+C:\Program Files\Java\jdk-11.0.9\bin>keytool -list -v -alias androiddebugkey -keystore C:\Users\a\.android\debug.keystore
+
+SHA1: D2:73:7A:A2:2B:60:70:1A:1B:FC:FD:C6:AD:EB:9D:66:24:A6:08:BB
